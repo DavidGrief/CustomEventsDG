@@ -1,0 +1,54 @@
+settings:
+  prefix: "&#aa00ff&lCustomEventsDG &8» &f"
+  world: "world"
+
+event:
+  auto-start: false
+  interval-seconds: 7200
+  duration-seconds: 1200
+
+  min-distance-from-spawn: 1000
+  max-distance-from-spawn: 5000
+
+  zone-radius: 35
+  announce-exact-coords: true
+
+  pvp-enabled-in-zone: true
+  remove-blocks-after-event: true
+
+boss:
+  type: WITHER_SKELETON
+  name: "&#aa00ff&lХранитель Разлома"
+  health: 300.0
+  damage: 9.0
+  summon-minions-every-seconds: 15
+
+waves:
+  first:
+    zombies: 8
+    skeletons: 5
+    spiders: 3
+
+  crystal-wave:
+    zombies: 3
+    skeletons: 2
+
+rewards:
+  chest-title: "&#ffaa00&lНаграды Разлома"
+
+  common:
+    - "IRON_INGOT:8"
+    - "GOLD_INGOT:6"
+    - "COOKED_BEEF:16"
+    - "EXPERIENCE_BOTTLE:12"
+
+  rare:
+    - "DIAMOND:3"
+    - "EMERALD:6"
+    - "GOLDEN_APPLE:2"
+    - "ENCHANTED_BOOK:1"
+
+  legendary:
+    - "NETHERITE_SCRAP:1"
+    - "TOTEM_OF_UNDYING:1"
+    - "DIAMOND_SWORD:1"

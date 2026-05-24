@@ -1,0 +1,17 @@
+name: CustomEventsDG
+main: ru.dg.customevents.CustomEventsDG
+version: 1.0.0
+api-version: "1.16"
+author: Давид Grief
+
+commands:
+  cevent:
+    description: Custom random events
+    aliases: [event, customevent, dgivent]
+    usage: /cevent
+
+permissions:
+  customevents.admin:
+    default: op
+  customevents.play:
+    default: true
